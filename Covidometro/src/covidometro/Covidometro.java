@@ -5,10 +5,8 @@
  */
 package covidometro;
 
-/**
- *
- * @author SESI_SENAI
- */
+// static Diario dia = new Diario(); ***
+
 public class Covidometro {
 
     /**
@@ -16,6 +14,8 @@ public class Covidometro {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        TelaPrincipal TelaPrincipal = new TelaPrincipal();
+        TelaPrincipal.setVisible(true);
     }
     
 }
